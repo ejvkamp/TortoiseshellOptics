@@ -23,7 +23,7 @@ nav {
   justify-content: space-between;
   background-color: cadetblue;
   color: white;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 nav div {
@@ -33,12 +33,12 @@ nav div {
 
 .header img {
   height: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 1rem;
 }
 nav li {
   display: inline;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 
