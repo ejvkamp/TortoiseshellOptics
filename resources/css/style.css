@@ -1,0 +1,57 @@
+/* Global  */
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+/* Header */
+
+.siteContainer {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  margin-top: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  color: white;
+  padding: 1rem 0;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+nav li {
+  display: inline;
+  padding: 0 2rem;
+}
+
+
+/*  */
+
+
+
+/*  */
+
+
+
+/*  */
+
+
+
+/*  */
