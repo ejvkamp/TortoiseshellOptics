@@ -8,13 +8,20 @@ html {
 
 /* Header */
 
+header {
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Top Nav */
+
 .siteContainer {
   width: 960px;
   margin: auto;
-}
-
-header {
-  margin-top: 1rem;
 }
 
 nav {
@@ -22,29 +29,43 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: cadetblue;
-  color: white;
-  padding: 1rem;
+  color: white;  
 }
 
 nav div {
   display: flex;
   align-items: center;
+  padding: 1rem 2rem;
 }
 
 .header img {
   height: 1.5rem;
-  padding-left: 1rem;
   padding-right: 1rem;
 }
+
 nav li {
   display: inline;
-  padding: 0 1rem;
+  padding-left: 2rem;
 }
 
+/* Hero Text */
 
-/*  */
+.siteContainer.heroTextContainer {
+  display: flex;
+  justify-content: flex-end;
+}
 
-
+.hero-text {
+  display: inline-block;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+}
 
 /*  */
 
