@@ -4,6 +4,7 @@ html {
   font-size: 18px;
   font-family: Helvetica;
   line-height: 1.4;
+  background-color: azure;
 }
 
 /* Header */
@@ -127,4 +128,20 @@ nav li {
   margin-top: 1rem;
 }
 
-/*  */
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  height: 1.5rem;
+  padding: 0 1rem 0 4rem;
+}
