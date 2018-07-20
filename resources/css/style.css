@@ -152,10 +152,10 @@ footer div {
 
 /* Responsive Design for Tablets */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 960px) {
 
   header {
-    width: 1024px;
+    width: 960px;
     height: 22rem;
     padding-top: 0rem;
   }
@@ -165,7 +165,7 @@ footer div {
   }
 
   .siteContainer {
-    width: 1024px;
+    width: 960px;
     margin: auto;
   }
 
@@ -178,23 +178,23 @@ footer div {
   }
 
   .services {
-    width: 1024px;
+    width: 960px;
   }
 
 }
 
 /* Responsive Design for Mobile */
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 480px) {
 
   header {
-    width: 560px;
+    width: 480px;
     height: 17rem;
     background-position: 20%;
   }
 
   .siteContainer {
-    width: 560px;
+    width: 480px;
     margin: auto;
   }
 
@@ -221,7 +221,7 @@ footer div {
   }
 
   .services {
-    width: 560px;
+    width: 480px;
     flex-direction: column;
     align-items: center;
     margin: 3rem auto;
@@ -249,12 +249,12 @@ footer div {
   }
 
   .infoItem {
-    width: 560px;
+    width: 480px;
     margin-bottom: 4rem;
   }
 
   .infoTitle {
-    width: 560px;
+    width: 480px;
     padding: 0.5rem 0;
     text-align: center;
   }
@@ -269,7 +269,7 @@ footer div {
   }
 
   .footer {
-    width: 560px;
+    width: 480px;
     justify-content: center;
   }
 
