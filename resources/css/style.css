@@ -49,6 +49,10 @@ nav li {
   padding-left: 2rem;
 }
 
+.headerMenu #mobileMenu {
+  display: none;
+}
+
 /* Hero Text */
 
 .siteContainer.heroTextContainer {
@@ -148,16 +152,20 @@ footer div {
 
 /* Responsive Design for Tablets */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
 
   header {
-    width: 800px;
+    width: 1024px;
     height: 22rem;
     padding-top: 0rem;
   }
 
+  .headerMenu #mobileMenu {
+    display: none;
+  }
+
   .siteContainer {
-    width: 800px;
+    width: 1024px;
     margin: auto;
   }
 
@@ -170,7 +178,107 @@ footer div {
   }
 
   .services {
-    width: 800px;
+    width: 1024px;
+  }
+
+}
+
+/* Responsive Design for Mobile */
+
+@media only screen and (max-width: 560px) {
+
+  header {
+    width: 560px;
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .siteContainer {
+    width: 560px;
+    margin: auto;
+  }
+
+  .companyName {
+    display: none;
+  }
+
+  .headerMenu ul {
+    display: none;
+  }
+
+  .headerMenu #mobileMenu {
+    display: block;
+    padding-right: 1rem;
+  }
+
+  .hero-text {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 9rem;
+    margin-right: 0;
+    padding: 0.75rem 0;
+  }
+
+  .services {
+    width: 560px;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem auto;
+  }
+
+  .service {
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+    height: auto;
+    padding: 0.77rem 0;
+  }
+
+  .service-image {
+    padding-bottom: 0.5rem;
+  }
+
+  .service-text {
+    font-size: 0.77rem;
+  }
+
+  .storeInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoItem {
+    width: 560px;
+    margin-bottom: 4rem;
+  }
+
+  .infoTitle {
+    width: 560px;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+
+  .infoDetails {
+    font-size: 0.77rem;
+    padding-left: 0.75rem;
+  }
+
+  footer {
+    height: 6rem;
+  }
+
+  .footer {
+    width: 560px;
+    justify-content: center;
+  }
+
+  .footer img {
+    padding: 0;
+  }
+
+  .companyNameFooter {
+    display: none;
   }
 
 }
